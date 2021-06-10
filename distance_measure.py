@@ -11,6 +11,7 @@ while not b.is_pressed:
     dist = round(ds.distance * 100, 1)
     disp.fill(0)
     disp.print(str(dist))
-    sleep(0.5)
+    sleep(0.5 )
 # end program
 disp.fill(0)
+print('Thank you for using our distance sensor!!')
